@@ -1,0 +1,42 @@
+#Satisfied{
+    position: relative;
+    opacity: 0;
+}
+#Satisfied:hover{
+    animation: fadeIn 1s forwards; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.setisfied-card{
+    color: #fff !important;
+    padding: 150px 40px 40px 30px;
+    background-color: #252734 !important;
+}
+.setisfied-card .setisfied-h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.setisfied-icon-div {
+    position: absolute;
+    right: 13%;
+    bottom: 16%;
+    color: gold;
+}
+.setisfied-right h2{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 61px;
+    margin-left: 3rem;
+}
+.setisfied-right p{
+    color: #858792 ;
+    margin-left: 3rem;
+}
+

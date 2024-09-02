@@ -1,0 +1,62 @@
+#skill{
+    background-color: #252734;
+    height: 941px;
+    color: #fff;
+    padding-top: 150px;
+    opacity: 0; /* Start invisible */   
+}
+#skill:hover{
+    animation: fadeIn 1s forwards; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* #212529 */
+#skill h2{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.cus-btn-skill{
+    padding: 30px 40px !important;
+    border-radius: 50px !important;
+    background-color: #252734 !important;
+    border: 1px solid #858792 !important;
+    transition: 0.5s;
+}
+.skill-left-div{
+    padding: 50px;
+    background-color: #2a2c39;
+    position: relative;
+}
+.skill-left-div h3{
+    color: #858792 !important;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.skill-span {
+    position: absolute;
+    top: 36%;
+    right: 10%;
+    color: #858792;
+    font-size: 21px;
+}
+.cus-btn-skill:hover{
+    background-color:#858792 !important;
+    border:1px solid #858792 !important;
+}
+.progress-bar {
+    background-color: #fff !important;
+}
+.progress, .progress-stacked {
+    --bs-progress-bg: #858792 !important;
+    --bs-progress-border-radius: none;
+    --bs-progress-height: 0.3rem !important;
+}

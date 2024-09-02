@@ -1,0 +1,39 @@
+#summary{
+    padding-top: 100px;
+    padding-bottom:100px; 
+    background-color: #252734;   
+    opacity: 0; /* Start invisible */   
+}
+#summary:hover{
+    animation: fadeIn 1s forwards; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.summary-main-div{
+    display: flex;
+    gap: 20px;
+}
+.summary-img {
+    border:2px solid #858792 ;
+    padding: 23px;
+    border-radius: 8px;
+}
+#summary h2{
+   font-size: 70px; 
+}
+#summary span{
+   font-size: 70px; 
+   color: #fff;
+}
+#summary p{
+    color: #858792;
+}
+.number , .number1 , .number2{
+    color: #fff;
+}

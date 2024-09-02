@@ -1,0 +1,32 @@
+#pro1{
+    padding-top: 255px;
+    background-color: #252734;
+    padding-bottom: 100px;
+}
+#pro1 h2{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 75px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.div{
+text-align: center;
+}
+.link-page{
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #2a2c39;
+    border-radius: 30px;
+    display: inline-flex;
+}
+.link-page li , a{
+    padding-bottom: 0px !important;
+    text-decoration: none !important;
+    color: #858792 !important;
+    transition: 0.5s;
+}
+.link-page a:hover{
+    color: #fff !important;
+}

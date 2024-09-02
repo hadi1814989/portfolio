@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#banner{
+    background-color: #252734;
+    height: 1130px;
+    position: relative !important;
+    color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 0.1;
+}
+#banner:hover{
+    animation: fadeIn 1s forwards; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.o1 {
+    position: absolute !important;
+    top: -26%;
+    left: -11%;
+    width: 400px;
+    height: 400px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o2 {
+    position: absolute !important;
+    top: -31%;
+    left: -13%;
+    width: 500px;
+    height: 500px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o3 {
+    position: absolute !important;
+    top: -35%;
+    left: -15%;
+    width: 600px;
+    height: 600px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o4 {
+    position: absolute !important;
+    bottom: -26%;
+    left: -11%;
+    width: 400px;
+    height: 400px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o5 {
+    position: absolute !important;
+    bottom: -31%;
+    left: -13%;
+    width: 500px;
+    height: 500px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o6 {
+    position: absolute !important;
+    bottom: -35%;
+    left: -15%;
+    width: 600px;
+    height: 600px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o7 {
+    position: absolute !important;
+    bottom: 19%;
+    left: 61%;
+    width: 460px;
+    height: 460px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o8 {
+    position: absolute !important;
+    bottom: 15%;
+    left: 58%;
+    width: 560px;
+    height: 560px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+}
+.o9 {
+    position: absolute !important;
+    bottom: 11%;
+    left: 55%;
+    width: 660px;
+    height: 660px;
+    background-color: red transparent;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+  
+}
+.toparrow {
+    color: #252734;
+    font-size: 25px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    background-color: #fff;
+    padding: 6px 4px;
+    width: 55px;
+    height: 55px;
+    border: none ;
+    border-radius: 50%;
+}
+
+
+.main-icon1-banner {
+    position: absolute;
+    top: 42%;
+    right: 8%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.main-icon1-banner:hover{
+    color: black;
+    background-color: #fff;
+}
+.main-icon2-banner {
+    position: absolute;
+    top: 53%;
+    right: 4%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.main-icon2-banner:hover{
+    color: black;
+    background-color: #fff;
+}
+.main-icon3-banner {
+    position: absolute;
+    top: 66%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.main-icon3-banner:hover{
+    color: black;
+    background-color: #fff;
+}
+.main-icon4-banner {
+    position: absolute;
+    top: 35%;
+    right: 16%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.main-icon4-banner:hover{
+    color: black;
+    background-color: #fff;
+}
+.palse{
+    position: absolute;
+    left: 20%;
+    bottom: 6%;
+    background-color:rgb(85, 83, 83);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 40px;
+    display: grid;
+    opacity: 0.5;
+    place-items: center;
+}
+.palse a{
+    display: grid;
+    place-items: center; 
+    color: #ffffff;
+}
+.palse::after,
+.palse::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    z-index:-1;
+    opacity: 0.7;
+}
+.palse::after{
+   animation:palse 1s ease-out infinite ;
+}
+.palse::before{
+   animation:palse 1s 1s ease-out infinite ;
+}
+@keyframes palse{
+    100%{
+        transform: scale(1.3);
+        opacity: 0;
+    }
+}
+/* #banner h1{
+    padding-top: 200px;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+} */
+.reactTyped{
+    padding-top: 200px;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+.typed-input{
+    background: transparent ;
+    border: transparent;
+}
+span {
+    color: #fff;
+}
+.sp-ban{
+    position: relative;
+    font-family: "Playfair Display", serif;
+   font-size: 109px; 
+}
+.sp-ban::after {
+    position: absolute;
+    top: 90%;
+    left: 56%;
+    content: '';
+    background: url(/src/assets/ban-img-h1.png)no-repeat center / cover;
+    width: 254px;
+    height: 21px;
+    rotate: -3deg;
+}
+#banner p{
+    color: #858792;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.full{
+    font-size: 30px;
+    padding-left: 0px !important;
+}
+.man-img {
+    position: absolute;
+    top: 16%;
+    right: 11%;
+    width: 48%;
+}

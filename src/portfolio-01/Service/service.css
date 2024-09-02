@@ -1,0 +1,53 @@
+#service{
+  padding-top: 200px; 
+  background-color:#2a2c39; 
+  color: #fff;
+  opacity: 0;
+}
+#service:hover{
+    animation: fadeIn 1s forwards; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+#service h2{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+#service span{
+    font-size: 21px;
+}
+.service-card-cus{
+    background-color: #252734 !important;
+    color: #fff !important;
+    padding: 70px;
+    transition: 0.5s;
+}
+.service-card-cus:hover{
+     box-shadow: 0 3px 10px rgba(255, 255, 255, 0.536);
+     border: 1px solid #fff;
+}
+.service-card-cus img{
+    padding-bottom: 30px;
+}
+.card-service-title{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.service-card-cus ul, li{
+    padding-left: 15px !important;
+    color: #858792 !important;
+    padding-bottom: 10px !important;
+    font-size: 20px;
+}
+
+        
