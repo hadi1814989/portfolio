@@ -12,12 +12,12 @@ import { FaHeart } from "react-icons/fa6";
 const Footer = () => {
   return (
   <section id='footer'>
-    <div className="footer-cercel-left">
+    <div className="footer-cercel-left d-xl-block d-none">
     <div className="o1"></div>
     <div className="o2"></div>
     <div className="o3"></div> 
     </div>
-    <div className="footer-cercel-right">
+    <div className="footer-cercel-right d-xl-block d-none">
     <div className="o4"></div>
     <div className="o5"></div>
     <div className="o6"></div>
@@ -26,9 +26,15 @@ const Footer = () => {
        <div className="footer">
        <p>|| &nbsp; &nbsp; Get Latest Updates</p>
         <h2>Subscribe For Newsletter</h2>
-       <input type="text" placeholder="demo@example.com" className='footer-form-cus'></input>
-       <Button  className='footer-btn'>Subscribe Now</Button>
-       <div className="footer-middle-main-div">
+    <div className="d-xl-flex ">
+    <div className="">
+     <input type="text" placeholder="demo@example.com" className='footer-form-cus'></input>
+     </div>
+     <div className="set-btn">
+     <Button  className='footer-btn'>Subscribe Now</Button>
+     </div>
+    </div>
+       <div className="footer-middle-main-div d-sm-flex ">
         <div className="footer-middle-1">
        <div className="call-icon"> <IoIosCall /></div>
        <span>0123456789</span>

@@ -40,7 +40,7 @@
 }
 .card-service-title{
     padding-bottom: 30px;
-    font-size: 30px;
+    font-size: 28px !important;
     font-weight: 600;
 }
 .service-card-cus ul, li{
@@ -49,5 +49,43 @@
     padding-bottom: 10px !important;
     font-size: 20px;
 }
-
+@media (max-width: 415px) {
+  #service h2 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.service-card-cus {
+  padding: 12px;
+}
+.service-card-cus{
+ width: 30% !important;
+}
+}
+@media (max-width: 768px) {
+  .service-card-cus {
+    padding: 41px;
+}
+.card-title  {
+  font-size: 15px !important;
+}
+.service-card-cus ul, li {
+  font-size: 14px;
+}
+}
+@media (max-width: 736px) {
+  .service-card-cus {
+    padding: 12px;
+}
+.card-title  {
+  font-size: 15px;
+}
+}
+@media (width: 1024px){
+  .card-title  {
+    font-size: 18px !important;  
+}
+}
         

@@ -13,4 +13,8 @@ img{
 }
 body{
   background-color: #2a2c39 !important;
+  overflow-x: hidden;
+}
+@media (max-width: 950px){
+
 }

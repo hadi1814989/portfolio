@@ -11,7 +11,9 @@ const Satisfied = () => {
             <Col lg={5}>
             <Card className='setisfied-card'>
       <Card.Body>
-        <Card.Title className='setisfied-h2'>Some quick example text to build on the card title and make up the
+        <Card.Title className='setisfied-h2 d-none d-sm-block'>Some quick example text to build on the card title and make up the
+        bulk of the card's content.</Card.Title>
+        <Card.Title className='setisfied-h2 d-sm-none d-block'>Some quick example text to build <br /> on the card title and make up <br /> the
         bulk of the card's content.</Card.Title>
         <Card.Text>
          SEO ,Seoly
@@ -35,9 +37,10 @@ const Satisfied = () => {
                 <Col lg={11}>
                 <Card className='setisfied-card  ms-5 mt-5'>
       <Card.Body>
-        <Card.Title className='setisfied-h2'>
-            Some quick example text to build on the card title and make up the
-        bulk of the card's content.</Card.Title>
+      <Card.Title className='setisfied-h2 d-none d-sm-block'>Some quick example text to build on the card title and make up the
+      bulk of the card's content.</Card.Title>
+      <Card.Title className='setisfied-h2 d-sm-none d-block'>Some quick example text to build <br /> on the card title and make up <br /> the
+      bulk of the card's content.</Card.Title>
         <Card.Text>
          SEO ,Seoly
         </Card.Text>

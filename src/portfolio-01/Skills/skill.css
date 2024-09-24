@@ -60,3 +60,23 @@
     --bs-progress-border-radius: none;
     --bs-progress-height: 0.3rem !important;
 }
+@media (max-width: 768px) {
+.cus-btn-skill{
+    margin-bottom: 35px;
+}
+#skill h2 {
+    font-size: 51px;
+}
+#skill {
+   height: 1155px;
+} 
+}
+@media (max-width: 415px) {
+#skill h2 {
+    font-size: 28px;
+} 
+.skill-left-div{
+    padding: 40px;
+    width: 330px !important;
+}
+}

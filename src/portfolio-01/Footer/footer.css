@@ -93,7 +93,7 @@
     border-radius: 50%;
 } 
 #footer .footer-form-cus{
-    width: 60%;
+    width: 550px;
     padding: 20px;
     border-radius: 50px;
     background-color: #252734;
@@ -116,7 +116,7 @@
     border: 2px solid #fff !important;
 }
 .footer .footer-middle-main-div{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     color: #fff;
     padding-top: 100px;
@@ -202,4 +202,132 @@
 }
 .footer .last-footer-left span, h3{
     color: #fff;
+}
+@media ( max-width : 1024px){
+    .footer .mail-icon {
+        padding: 23px;
+        top: -17%;
+    }
+    .footer .call-icon {
+        padding: 23px;
+        top: -17%;
+    }
+    #footer .footer-form-cus{
+        margin-left: 0.5rem;
+    }
+    .footer .footer-middle-1 span {
+        font-size: 15px;
+        margin-left: 8rem;
+        padding-top: 10px;
+    }
+    .footer .call-icon {
+        padding: 11px;
+        left: 33%;
+        top: -6%;
+    }
+    .footer .mail-icon {
+        padding: 11px;
+        left: 4%;
+        top: -6%;
+    }
+    .footer .footer-middle-2 span {
+        font-size: 15px;
+        margin-left: 4rem;
+        padding-top: 10px;
+    }
+    .footer .footer-middle-3 {
+        column-gap: 9px;
+    }
+    .footer-group-icon {
+        font-size: 11px;
+        padding: 15px;
+    }
+}
+@media ( max-width : 768px){
+.set-btn{
+    text-align: center;
+    margin-top: 1rem;
+}
+#footer .footer-form-cus{
+    margin-left: 5rem;
+}
+}
+@media ( max-width : 736px){
+.set-btn{
+    text-align: center;
+    margin-top: 1rem;
+}
+#footer .footer-form-cus{
+    margin-left: 0.5rem;
+}
+.footer .footer-middle-1 span {
+    font-size: 15px;
+    margin-left: 2rem;
+    padding-top: 10px;
+}
+.footer .call-icon {
+    padding: 11px;
+    left: -23%;
+    top: -6%;
+}
+.footer .mail-icon {
+    padding: 11px;
+    left: 6%;
+    top: -6%;
+}
+.footer .footer-middle-2 span {
+    font-size: 15px;
+    margin-left: 5rem;
+    padding-top: 10px;
+}
+.footer .footer-middle-3 {
+    column-gap: 9px;
+}
+.footer-group-icon {
+    font-size: 11px;
+    padding: 15px;
+}
+}
+@media (max-width: 415px){
+    .footer p {
+        text-align: left;
+        font-size: 12px;
+    }
+    .footer h2 {
+        text-align: left;
+        font-size: 31px;
+        padding-top: 0px !important; 
+    }
+    #footer .footer-form-cus {
+        width: 28% !important;
+    }
+    .set-btn {
+        text-align: left;
+        margin-top: 1rem;
+        margin-left: 4rem;
+    }
+    .footer .call-icon {
+        padding: 6px;
+        left: 0%;
+        top: -6%;
+    }
+    .footer .footer-middle-1 span {
+        font-size: 15px;
+        margin-left: 4rem;
+        padding-top: 8px;
+    }
+    .footer .mail-icon {
+        padding: 6px;
+        left: 0%;
+        top: 22%;
+    }
+    .footer .footer-middle-2 span {
+        font-size: 15px;
+        margin-left:3rem;
+       padding: 20px 0px;
+    }
+    .footer-middle-3{
+        margin-left: 7rem;
+        gap: 14px;
+    }
 }

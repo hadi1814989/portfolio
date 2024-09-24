@@ -13,7 +13,7 @@ const Summary = () => {
   <section id='summary'>
    <Container>
    <Row>
-    <Col lg={4}>
+    <Col lg={4} sm={4} xs={12} className='summary-width'>
     <div className="summary-main-div">
         <div className="summary-left">
             <img className='summary-img' src={personImg} alt="" />
@@ -25,7 +25,7 @@ const Summary = () => {
         </div>
     </div>
     </Col>
-    <Col lg={4}>
+    <Col lg={4} sm={4} xs={12} >
     <div className="summary-main-div">
         <div className="summary-left">
             <img className='summary-img' src={roundImg} alt="" />
@@ -37,7 +37,7 @@ const Summary = () => {
         </div>
     </div>
     </Col>
-    <Col lg={4}>
+    <Col lg={4} sm={4} xs={12} className='summary-width'>
     <div className="summary-main-div">
         <div className="summary-left">
             <img className='summary-img' src={calImg} alt="" />

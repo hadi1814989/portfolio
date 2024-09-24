@@ -289,3 +289,131 @@ span {
     right: 11%;
     width: 48%;
 }
+@media (max-width: 768px){
+.round{
+    display: none;
+}
+.main-icon1-banner {
+    position: absolute;
+    top: 71%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.main-icon2-banner {
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.main-icon3-banner {
+    position: absolute;
+    top: 79%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.main-icon4-banner {
+    position: absolute;
+    top: 83%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.reactTyped {
+    padding-top: 200px;
+    font-size: 73px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+}
+@media (max-width: 1024px){
+.round{
+    display: none;
+}
+.main-icon1-banner {
+    position: absolute;
+    top: 71%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.main-icon2-banner {
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.main-icon3-banner {
+    position: absolute;
+    top: 79%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.main-icon4-banner {
+    position: absolute;
+    top: 83%;
+    left: 8%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff transparent;
+    border: 1px solid #858792;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+}
+}

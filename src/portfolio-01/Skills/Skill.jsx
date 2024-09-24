@@ -15,11 +15,11 @@ const Skill = () => {
         <Container>
             <Row>
                 <Col lg={5}>
-                <span>|| &nbsp; &nbsp; Special Skills</span> 
+               <span>|| &nbsp; &nbsp; Special Skills</span> 
                 <h2>My Special Skill Field Here.</h2>
                 <Button className='cus-btn-skill'>Get Resume</Button>
                 </Col>
-                <Col lg={6} offset={2}>
+                <Col lg={6} offset={1}>
                 <div className="skill-left-div offset-lg-2">
                     <h3>Bootstrap</h3>
                     <span className='skill-span'>80%</span>

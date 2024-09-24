@@ -39,4 +39,30 @@
     color: #858792 ;
     margin-left: 3rem;
 }
+@media (max-width: 1024px){
+.setisfied-card .setisfied-h2 {
+        font-size: 35px !important;
+}
+.setisfied-right{
+        margin-top: 30px !important;
+}
+}
+@media (max-width: 415px){
+.setisfied-card .setisfied-h2 {
+        font-size: 18px !important;
+ }
+ .setisfied-icon-div {
+    position: absolute;
+    left: 18%;
+    bottom: 27%;
+    color: gold;
+}
+.setisfied-right h2 {
+    font-size: 37px;
+    margin-left: 2rem;
+}
+.setisfied-right{
+    margin-top: 30px !important;
+}
+}
 
